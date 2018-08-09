@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Back.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Fruit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PacMan.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Boom.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BackArray.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PacManApp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Bean.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ghost.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RedGhost.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cherry.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="orange.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YellowGhost.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BigBean.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GreenGhost.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PinkGhost.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="berry.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cake.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CGameCtrl.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="system.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Back.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Fruit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PacMan.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Boom.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BackArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Array.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PacManApp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Bean.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ghost.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RedGhost.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cherry.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="orange.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YellowGhost.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BigBean.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenGhost.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PinkGhost.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="berry.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cake.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="加油.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="bitmap1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="font.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="ghosts.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="logo.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pacmandeath.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pacmanmask.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pixelmask.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="map.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Bean.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pacman.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Bboom.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Wboom.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="w_pacman.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="w_ghosts.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="w_Bean.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="toolbar1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="fengMian.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="D:\科林代码\加油\加油\bitmap1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="d:\科林代码\加油\加油\toolbar1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="items.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="d:\科林代码\加油\加油\bitmap11.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="w_items.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="WBigBeanbean.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="BigBean.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="wghosts1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="ghosts1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="snd\death.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="snd\eatfruit.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="snd\eatghost.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="snd\intro.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="snd\intropm.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="snd\pacman_chomp.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="snd\pacman_extrapac.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="snd\pacman_intermission.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="snd\wakawaka.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+  </ItemGroup>
+</Project>

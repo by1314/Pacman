@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{57E3110F-15F3-4301-8647-085A7D56554C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>加油</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AI.cpp" />
+    <ClCompile Include="Back.cpp" />
+    <ClCompile Include="BackArray.cpp" />
+    <ClCompile Include="Bean.cpp" />
+    <ClCompile Include="berry.cpp" />
+    <ClCompile Include="BigBean.cpp" />
+    <ClCompile Include="Boom.cpp" />
+    <ClCompile Include="cake.cpp" />
+    <ClCompile Include="cherry.cpp" />
+    <ClCompile Include="Fruit.cpp" />
+    <ClCompile Include="Ghost.cpp" />
+    <ClCompile Include="GreenGhost.cpp" />
+    <ClCompile Include="orange.cpp" />
+    <ClCompile Include="PacMan.cpp" />
+    <ClCompile Include="PacManApp.cpp" />
+    <ClCompile Include="PinkGhost.cpp" />
+    <ClCompile Include="RedGhost.cpp" />
+    <ClCompile Include="WinMain.cpp" />
+    <ClCompile Include="YellowGhost.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AI.h" />
+    <ClInclude Include="Array.h" />
+    <ClInclude Include="Back.h" />
+    <ClInclude Include="BackArray.h" />
+    <ClInclude Include="Bean.h" />
+    <ClInclude Include="berry.h" />
+    <ClInclude Include="BigBean.h" />
+    <ClInclude Include="Boom.h" />
+    <ClInclude Include="cake.h" />
+    <ClInclude Include="CGameCtrl.h" />
+    <ClInclude Include="cherry.h" />
+    <ClInclude Include="Fruit.h" />
+    <ClInclude Include="Ghost.h" />
+    <ClInclude Include="GreenGhost.h" />
+    <ClInclude Include="Node.h" />
+    <ClInclude Include="orange.h" />
+    <ClInclude Include="PacMan.h" />
+    <ClInclude Include="PacManApp.h" />
+    <ClInclude Include="PinkGhost.h" />
+    <ClInclude Include="RedGhost.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="system.h" />
+    <ClInclude Include="YellowGhost.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="加油.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Bboom.bmp" />
+    <Image Include="Bean.bmp" />
+    <Image Include="BigBean.bmp" />
+    <Image Include="bitmap1.bmp" />
+    <Image Include="D:\科林代码\加油\加油\bitmap1.bmp" />
+    <Image Include="d:\科林代码\加油\加油\bitmap11.bmp" />
+    <Image Include="d:\科林代码\加油\加油\toolbar1.bmp" />
+    <Image Include="fengMian.bmp" />
+    <Image Include="font.bmp" />
+    <Image Include="ghosts.bmp" />
+    <Image Include="ghosts1.bmp" />
+    <Image Include="items.bmp" />
+    <Image Include="logo.bmp" />
+    <Image Include="map.bmp" />
+    <Image Include="pacman.bmp" />
+    <Image Include="pacmandeath.bmp" />
+    <Image Include="pacmanmask.bmp" />
+    <Image Include="pixelmask.bmp" />
+    <Image Include="toolbar1.bmp" />
+    <Image Include="WBigBeanbean.bmp" />
+    <Image Include="Wboom.bmp" />
+    <Image Include="wghosts1.bmp" />
+    <Image Include="w_Bean.bmp" />
+    <Image Include="w_ghosts.bmp" />
+    <Image Include="w_items.bmp" />
+    <Image Include="w_pacman.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="snd\death.wav" />
+    <Media Include="snd\eatfruit.wav" />
+    <Media Include="snd\eatghost.wav" />
+    <Media Include="snd\intro.wav" />
+    <Media Include="snd\intropm.wav" />
+    <Media Include="snd\pacman_chomp.wav" />
+    <Media Include="snd\pacman_extrapac.wav" />
+    <Media Include="snd\pacman_intermission.wav" />
+    <Media Include="snd\wakawaka.wav" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="加油.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
